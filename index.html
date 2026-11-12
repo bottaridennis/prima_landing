@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1A Clean — Lavanderia e lavasecco a Verona Uno, Legnago e Bovolone</title>
+    <meta
+      name="description"
+      content="1A Clean: lavanderia e lavasecco professionale in provincia di Verona. Lavaggio a secco e ad acqua, capi delicati e in pelle, tappeti, servizio espresso 24 ore. Negozi a San Giovanni Lupatoto (Verona Uno), Legnago (Galassia) e Bovolone."
+    />
+    <meta name="theme-color" content="#0A72B8" />
+    <meta name="geo.region" content="IT-VR" />
+    <meta name="geo.placename" content="San Giovanni Lupatoto, Legnago, Bovolone" />
+    <!-- TODO: sostituire con il dominio definitivo -->
+    <link rel="canonical" href="https://www.1aclean.it/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:site_name" content="1A Clean" />
+    <meta property="og:title" content="1A Clean — La cura che i tuoi capi meritano" />
+    <meta
+      property="og:description"
+      content="Lavanderia e lavasecco professionale. Tre punti vendita a Verona Uno, Legnago e Bovolone."
+    />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Dati strutturati: SEO locale. Orari omessi finché non verificati. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.1aclean.it/#org",
+            "name": "1A Clean",
+            "legalName": "1A Clean di Mattiolo Sonia",
+            "email": "lavasecco1aclean@gmail.com",
+            "url": "https://www.1aclean.it/"
+          },
+          {
+            "@type": "DryCleaningOrLaundry",
+            "name": "1A Clean — Verona Uno",
+            "parentOrganization": { "@id": "https://www.1aclean.it/#org" },
+            "telephone": "+39 351 710 1674",
+            "email": "lavasecco1aclean@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Via Monte Cristallo 1, c/o Centro Commerciale Verona Uno",
+              "addressLocality": "San Giovanni Lupatoto",
+              "addressRegion": "VR",
+              "addressCountry": "IT"
+            },
+            "areaServed": ["Verona", "San Giovanni Lupatoto"]
+          },
+          {
+            "@type": "DryCleaningOrLaundry",
+            "name": "1A Clean — Legnago",
+            "parentOrganization": { "@id": "https://www.1aclean.it/#org" },
+            "telephone": "+39 333 404 8866",
+            "email": "lavasecco1aclean@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Via Mantova 5, c/o Centro Commerciale Galassia",
+              "addressLocality": "Legnago",
+              "addressRegion": "VR",
+              "addressCountry": "IT"
+            },
+            "areaServed": ["Legnago"]
+          },
+          {
+            "@type": "DryCleaningOrLaundry",
+            "name": "1A Clean — Bovolone",
+            "parentOrganization": { "@id": "https://www.1aclean.it/#org" },
+            "telephone": "+39 351 555 9048",
+            "email": "lavasecco1aclean@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Via Madonna (accanto al ristorante Dai Fradei)",
+              "addressLocality": "Bovolone",
+              "addressRegion": "VR",
+              "addressCountry": "IT"
+            },
+            "areaServed": ["Bovolone"]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
