@@ -1,5 +1,6 @@
 import { motion, useReducedMotion } from 'motion/react'
 import { EASE, Eyebrow, SplitReveal } from './ui'
+import { listJoin, localities, StoreCountWord } from '../content'
 
 const reasons = [
   {
@@ -14,8 +15,8 @@ const reasons = [
   },
   {
     k: 'Territorio',
-    title: 'Tre negozi, vicini a te',
-    text: 'San Giovanni Lupatoto, Legnago e Bovolone: una rete di punti vendita nella bassa veronese, con la sede di Bovolone aperta anche la domenica.',
+    title: `${StoreCountWord} negozi, vicini a te`,
+    text: `${listJoin(localities)}: una rete di punti vendita tra Verona e la bassa veronese, con la sede di Bovolone aperta anche la domenica.`,
   },
   {
     k: 'Competenza',

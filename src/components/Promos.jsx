@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from 'motion/react'
-import { promotions, stores, telHref } from '../content'
+import { callableStores as stores, promotions, telHref } from '../content'
 import Silk from './Silk'
 import { EASE, Eyebrow, Icon, SplitReveal } from './ui'
 

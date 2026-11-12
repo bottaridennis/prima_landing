@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from 'motion/react'
-import { nav, stores, telHref } from '../content'
+import { activeStores as stores, isPhoneVerified, nav, telHref } from '../content'
 import { Button, EASE, Icon } from './ui'
 
 export function Logo({ light = false, className = '' }) {
@@ -144,7 +144,10 @@ export default function Header() {
               <p className="eyebrow mb-1 text-azzurro">Chiama il negozio</p>
               {stores.map((s) => (
                 <a key={s.id} href={telHref(s.phone)} className="flex items-center justify-between rounded-2xl bg-white/5 px-4 py-3">
-                  <span className="font-medium">{s.name}</span>
+                  <span className="font-medium">
+                    {s.name}
+                    {!isPhoneVerified(s) && <span className="ml-2 text-xs font-normal text-white/50">numero da verificare</span>}
+                  </span>
                   <span className="flex items-center gap-2 text-sm text-white/70">
                     {s.phone} <Icon name="phone" />
                   </span>

@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react'
-import { photos } from '../content'
+import { activeStores, photos, StoreCountWord, storeCount } from '../content'
 import Silk from './Silk'
 import { Button, EASE, Icon, Media } from './ui'
 
@@ -41,7 +41,7 @@ export default function Hero() {
             transition={{ duration: 0.9, ease: EASE, delay: 0.2 }}
           >
             <span className="inline-block size-1.5 rounded-full bg-blu" />
-            Lavanderia &amp; lavasecco<span className="hidden sm:inline">&nbsp;· Provincia di Verona</span>
+            <span>Lavanderia &amp; lavasecco<span className="hidden sm:inline"> · Provincia di Verona</span></span>
           </motion.p>
 
           <h1 id="hero-title" className="display text-notte text-[clamp(3rem,10.5vw,8.6rem)] leading-[0.92] font-[350]" aria-label="La cura che i tuoi capi meritano.">
@@ -74,10 +74,13 @@ export default function Hero() {
             transition={{ duration: 1, ease: EASE, delay: 1.1 }}
           >
             <p className="max-w-md text-[1.05rem] leading-relaxed text-notte/75 lg:text-lg">
-              Lavanderia e lavasecco professionale. Tre punti vendita a{' '}
-              <strong className="font-semibold text-notte">Verona Uno</strong>,{' '}
-              <strong className="font-semibold text-notte">Legnago</strong> e{' '}
-              <strong className="font-semibold text-notte">Bovolone</strong>.
+              Lavanderia e lavasecco professionale. {StoreCountWord} punti vendita a{' '}
+              {activeStores.map((s, i) => (
+                <span key={s.id}>
+                  <strong className="font-semibold text-notte">{s.name}</strong>
+                  {i < activeStores.length - 2 ? ', ' : i === activeStores.length - 2 ? ' e ' : '.'}
+                </span>
+              ))}
             </p>
           </motion.div>
 
@@ -125,7 +128,7 @@ export default function Hero() {
 
             <div className="absolute inset-x-5 bottom-5 flex items-end justify-between text-white sm:inset-x-7 sm:bottom-7">
               <p className="display-italic max-w-[14rem] text-xl leading-snug sm:text-2xl">Ogni fibra, trattata come un capo unico.</p>
-              <span className="eyebrow text-white/70">3 negozi</span>
+              <span className="eyebrow text-white/70">{storeCount} negozi</span>
             </div>
           </motion.div>
         </div>

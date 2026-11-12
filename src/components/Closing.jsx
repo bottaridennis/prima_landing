@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react'
-import { brand, nav, stores, telHref } from '../content'
+import { activeStores as stores, brand, callableStores, isPhoneVerified, listJoin, localities, nav, telHref } from '../content'
 import { Logo } from './Header'
 import Silk from './Silk'
 import { Button, Icon, SplitReveal } from './ui'
@@ -54,7 +54,7 @@ export function Footer() {
         <div className="lg:col-span-4">
           <Logo light />
           <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/60">
-            Lavanderia e lavasecco professionale a San Giovanni Lupatoto, Legnago e Bovolone, in provincia di Verona.
+            Lavanderia e lavasecco professionale a {listJoin(localities)}, in provincia di Verona.
           </p>
           <a href={`mailto:${brand.email}`} className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-white hover:text-azzurro">
             <Icon name="mail" /> {brand.email}
@@ -74,10 +74,13 @@ export function Footer() {
           </ul>
         </nav>
 
-        <div className="grid gap-8 sm:grid-cols-3 lg:col-span-6">
+        <div className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:col-span-6">
           {stores.map((s) => (
             <div key={s.id}>
-              <p className="eyebrow mb-5 text-azzurro">{s.name}</p>
+              <p className="eyebrow mb-5 text-azzurro">
+                {s.name}
+                {s.provisional && <span className="ml-2 normal-case tracking-normal text-white/45">· nuova sede, in verifica</span>}
+              </p>
               <address className="text-sm not-italic leading-relaxed">
                 {s.place !== s.street && (
                   <>
@@ -92,6 +95,7 @@ export function Footer() {
                 <a href={telHref(s.phone)} className="mt-2 inline-block font-medium text-white hover:text-azzurro">
                   Tel. {s.phone}
                 </a>
+                {!isPhoneVerified(s) && <span className="ml-2 text-xs text-white/45">(da verificare)</span>}
               </address>
             </div>
           ))}
@@ -130,7 +134,7 @@ export function MobileBar() {
         <Icon name="phone" className="size-4" />
         <span className="sr-only">Chiama</span>
       </span>
-      {stores.map((s) => (
+      {callableStores.map((s) => (
         <a
           key={s.id}
           href={telHref(s.phone)}

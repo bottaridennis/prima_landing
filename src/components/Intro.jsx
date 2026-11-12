@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react'
-import { photos } from '../content'
+import { photos, storeCount } from '../content'
 import Silk from './Silk'
 import { CurtainReveal, Eyebrow, Media, Reveal } from './ui'
 
@@ -63,7 +63,7 @@ export default function Intro() {
 
           <dl className="mt-16 grid grid-cols-3 gap-4 border-t border-notte/10 pt-8 sm:gap-8">
             {[
-              ['3', 'punti vendita in provincia di Verona'],
+              [String(storeCount), 'punti vendita in provincia di Verona'],
               ['24h', 'servizio espresso quando serve'],
               ['Dom.', 'aperto anche la domenica a Bovolone'],
             ].map(([k, v], i) => (
