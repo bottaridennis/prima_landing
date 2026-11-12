@@ -32,7 +32,7 @@ export default function Why() {
       <div className="mx-auto grid max-w-[1400px] gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-8">
         <div className="lg:col-span-5">
           <div className="lg:sticky lg:top-32">
-            <Eyebrow n="03">Perché scegliere 1A Clean</Eyebrow>
+            <Eyebrow n="03">Perché scegliere Prima Clean</Eyebrow>
             <h2 id="perche-title" className="display mt-8 text-[clamp(2.5rem,5.4vw,4.75rem)] leading-[0.98] font-[350] text-notte">
               <SplitReveal text="Le mani giuste" className="block" />
               <SplitReveal text="fanno la differenza." className="block" delay={0.15} italicWords={[2]} />

@@ -1,4 +1,4 @@
-# 1A Clean — Landing page
+# Prima Clean — Landing page
 
 React 18 · Tailwind CSS 4 · Motion (Framer Motion) · Vite.
 

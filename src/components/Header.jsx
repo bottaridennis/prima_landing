@@ -11,10 +11,10 @@ export function Logo({ light = false, className = '' }) {
           light ? 'bg-white text-blu' : 'bg-blu text-white'
         }`}
       >
-        1A
+        P
       </span>
-      <span className={`display text-[1.55rem] leading-none ${light ? 'text-white' : 'text-notte'}`}>
-        Clean
+      <span className={`display whitespace-nowrap text-[1.55rem] leading-none ${light ? 'text-white' : 'text-notte'}`}>
+        Prima <span className={`display-italic ${light ? 'text-azzurro' : 'text-blu'}`}>Clean</span>
       </span>
     </span>
   )
@@ -51,7 +51,7 @@ export default function Header() {
             scrolled ? 'bg-white/80 shadow-[0_10px_40px_-18px_rgba(32,63,87,.35)] ring-1 ring-notte/5 backdrop-blur-xl' : 'bg-transparent'
           }`}
         >
-          <a href="#top" aria-label="1A Clean — torna all’inizio">
+          <a href="#top" aria-label="Prima Clean — torna all’inizio">
             <Logo />
           </a>
 

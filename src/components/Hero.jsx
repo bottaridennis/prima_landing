@@ -106,7 +106,7 @@ export default function Hero() {
             transition={{ duration: 1.6, ease: [0.65, 0, 0.35, 1], delay: 0.15 }}
           >
             <motion.div className="absolute inset-[-6%]" style={{ y: imgY, scale: imgScale }}>
-              <Media src={photos.hero} alt="Dettaglio di un tessuto pregiato curato da 1A Clean">
+              <Media src={photos.hero} alt="Dettaglio di un tessuto pregiato curato da Prima Clean">
                 <Silk palette="blue" speed={0.55} label="Seta blu in movimento, studio materico" />
               </Media>
             </motion.div>

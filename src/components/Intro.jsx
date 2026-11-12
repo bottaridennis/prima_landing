@@ -45,7 +45,7 @@ export default function Intro() {
         <div className="lg:col-span-7 lg:pr-10">
           <Eyebrow n="01">La nostra cura</Eyebrow>
           <h2 id="cura-title" className="sr-only">
-            La cura dei tessuti secondo 1A Clean
+            La cura dei tessuti secondo Prima Clean
           </h2>
           <p ref={ref} className="display mt-10 text-[clamp(1.75rem,3.6vw,3.25rem)] leading-[1.14] font-[350] text-notte" aria-label={manifesto}>
             <span aria-hidden="true">
@@ -89,7 +89,7 @@ export default function Intro() {
           <Reveal delay={0.4} className="absolute -bottom-8 left-4 w-[15.5rem] sm:-left-10 lg:-left-16">
             <div className="relative rounded-xl bg-white p-5 shadow-[0_30px_60px_-30px_rgba(20,42,59,.45)] ring-1 ring-notte/5">
               <div className="absolute left-1/2 top-2 h-1 w-8 -translate-x-1/2 rounded-full bg-avorio" />
-              <p className="eyebrow mt-2 text-blu">Etichetta 1A Clean</p>
+              <p className="eyebrow mt-2 text-blu">Etichetta Prima Clean</p>
               <ul className="mt-3 space-y-1.5 text-sm text-notte/80">
                 <li className="flex justify-between"><span>Analisi del capo</span><span className="text-blu">✓</span></li>
                 <li className="flex justify-between"><span>Trattamento dedicato</span><span className="text-blu">✓</span></li>

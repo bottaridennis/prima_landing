@@ -1,10 +1,10 @@
-# 1A Clean — Brand Identity
+# Prima Clean — Brand Identity
 
 *Versione 1.0 · novembre 2026 · nata dal restyling della landing page*
 
 > **La cura che i tuoi capi meritano.**
 
-Questo documento raccoglie la nuova identità visiva e verbale di 1A Clean così come è stata definita nella landing page: palette, tipografia, segni grafici, fotografia, movimento e tono di voce. In fondo trovi la direzione creativa per il nuovo logo, con i prompt pronti da usare in ChatGPT.
+Questo documento raccoglie la nuova identità visiva e verbale di Prima Clean così come è stata definita nella landing page: palette, tipografia, segni grafici, fotografia, movimento e tono di voce. In fondo trovi la direzione creativa per il nuovo logo, con i prompt pronti da usare in ChatGPT.
 
 ---
 
@@ -34,7 +34,7 @@ La palette nasce dai colori reali del negozio e li porta in un registro più edi
 
 | Nome | HEX | RGB | Ruolo |
 |---|---|---|---|
-| **Blu 1A** | `#0A72B8` | 10 · 114 · 184 | Colore principale: logo, CTA, parole chiave, link |
+| **Blu Prima** | `#0A72B8` | 10 · 114 · 184 | Colore principale: logo, CTA, parole chiave, link |
 | **Azzurro** | `#79BDD6` | 121 · 189 · 214 | Accento: dettagli, numeri, testo su fondi scuri |
 | **Blu notte** | `#203F57` | 32 · 63 · 87 | Testo principale, fondi scuri, sezioni "premium" |
 | Blu notte profondo | `#142A3B` | 20 · 42 · 59 | Footer, ombre |
@@ -47,7 +47,7 @@ La palette nasce dai colori reali del negozio e li porta in un registro più edi
 
 - **60 %** bianco / carta / avorio — luce e spazio
 - **25 %** blu notte — testo e sezioni d'impatto
-- **10 %** blu 1A — azioni e accenti
+- **10 %** blu Prima — azioni e accenti
 - **5 %** azzurro — dettagli
 
 ### Accessibilità (contrasto WCAG)
@@ -56,10 +56,10 @@ La palette nasce dai colori reali del negozio e li porta in un registro più edi
 |---|---|---|
 | Blu notte su bianco | 10.99 : 1 | Testo di ogni dimensione |
 | Blu notte su avorio | 8.63 : 1 | Testo di ogni dimensione |
-| Bianco su blu 1A | 5.11 : 1 | Pulsanti, testo normale |
-| Blu 1A su carta | 4.86 : 1 | Link e testo normale |
+| Bianco su blu Prima | 5.11 : 1 | Pulsanti, testo normale |
+| Blu Prima su carta | 4.86 : 1 | Link e testo normale |
 | Azzurro su blu notte | 5.27 : 1 | Testo su fondi scuri |
-| Blu 1A su avorio | 4.01 : 1 | Solo titoli grandi (≥ 24 px) |
+| Blu Prima su avorio | 4.01 : 1 | Solo titoli grandi (≥ 24 px) |
 | Azzurro su bianco | 2.09 : 1 | ⚠️ Mai per testo — solo decorazioni |
 
 ### Gradiente "seta"
@@ -85,8 +85,8 @@ Due famiglie, entrambe gratuite (Google Fonts / Fontsource), entrambe variabili.
 ### Manrope — testo e interfaccia
 
 - **Uso:** paragrafi, pulsanti, menu, etichette, dati.
-- **Pesi:** 400 testo · 600 pulsanti e grassetti · 800 solo nel monogramma "1A".
-- **Etichette (eyebrow):** maiuscolo, 11 px, spaziatura lettere +22 %, colore blu 1A.
+- **Pesi:** 400 testo · 600 pulsanti e grassetti · 800 solo nel monogramma "P".
+- **Etichette (eyebrow):** maiuscolo, 11 px, spaziatura lettere +22 %, colore blu Prima.
 
 ### Scala di riferimento (web)
 
@@ -218,39 +218,45 @@ Il movimento si ispira ai tessuti: **fluido, morbido, mai a scatti**.
 
 ### Il logo attuale (nella landing)
 
-Un monogramma **"1A"** bianco in un quadrato blu arrotondato, affiancato dalla parola **Clean** in Fraunces. È una soluzione di transizione: pulita e leggibile, ma ancora generica.
+Un monogramma **"P"** bianco in un quadrato blu arrotondato, affiancato da **Prima** *Clean* in Fraunces (con "Clean" in corsivo blu). È una soluzione di transizione: pulita e leggibile, ma ancora generica.
 
 ### Obiettivi del nuovo logo
 
 1. Riconoscibile anche piccolissimo (favicon, profilo social, etichetta adesiva).
 2. Racconta la **cura del tessuto** senza usare icone scontate.
-3. Coerente con la palette e la tipografia di questo documento.
-4. Funziona in positivo, in negativo e in un solo colore (stampa, ricamo, timbro).
+3. Valorizza il nome **Prima**: la prima scelta, il primo posto, "prima di tutto i tuoi capi".
+4. Coerente con la palette e la tipografia di questo documento.
+5. Funziona in positivo, in negativo e in un solo colore (stampa, ricamo, timbro).
 
 ### Concept A — "Il cartellino" *(consigliato)*
 
-Il monogramma **1A** dentro la sagoma di un **cartellino da sartoria** (rettangolo con angoli superiori smussati e un foro in alto), con il bordo interno a cucitura tratteggiata. Accanto: *1A Clean* in un serif elegante.
+La **"P"** di Prima dentro la sagoma di un **cartellino da sartoria** (rettangolo con angoli superiori smussati e un foro in alto), con il bordo interno a cucitura tratteggiata. Accanto: *Prima Clean* in un serif elegante.
 **Perché:** riprende il segno grafico principale del brand ed è subito associato ai capi d'abbigliamento.
 
 ### Concept B — "La piega"
 
-La **"A" disegnata come un tessuto piegato**: un nastro continuo che forma le due aste e si ripiega per creare la barra orizzontale, con una leggera ombra sulla piega. L'"1" è una linea sottile e verticale, come un ago o una gruccia vista di lato.
+La **"P" disegnata come un nastro di tessuto**: l'asta verticale è il nastro che scende, l'occhiello è la stoffa che si ripiega su se stessa, con una leggera differenza di tono sulla piega.
 **Perché:** comunica movimento, morbidezza e cura in un solo gesto.
 
 ### Concept C — "Il filo"
 
-**1A** tracciato da un'unica linea continua, come un filo da cucito, che termina con un piccolo nodo o un ago. Stile monoline, molto raffinato.
+**"Prima"** scritto in corsivo con un'unica linea continua, come un filo da cucito, che parte da un piccolo ago e termina con un nodo; sotto, **CLEAN** in maiuscolo spaziato. Stile monoline, molto raffinato.
 **Perché:** richiama l'artigianalità e il dettaglio; ottimo per ricamo e insegne al neon.
 
 ### Concept D — "Il colletto"
 
-Il monogramma inserito nella forma stilizzata di un **colletto di camicia** visto dall'alto: due punte simmetriche che incorniciano l'"1A", con un piccolo bottone come punto.
+La **"P"** incorniciata dalla forma stilizzata di un **colletto di camicia** visto dall'alto: due punte simmetriche e un piccolo bottone come punto.
 **Perché:** la camicia è il capo simbolo della lavanderia di tutti i giorni.
+
+### Concept E — "1ª" *(il gioco di parole)*
+
+Il monogramma **"1ª"** — l'uno con la "a" in apice, che in italiano si legge proprio *prima* — dentro un cerchio o un cartellino, come un bollino di qualità. Accanto: *Prima Clean*.
+**Perché:** trasforma il nome in un segno di primato ("prima qualità") ed è un'idea memorabile. Attenzione: va sempre accompagnato dalla scritta per evitare che venga letto come un numero.
 
 ### Specifiche per tutti i concept
 
-- **Colori:** Blu 1A `#0A72B8` e Blu notte `#203F57`; versione negativa bianca su blu notte; versione monocromatica.
-- **Wordmark:** "1A Clean" — serif contemporaneo morbido (tipo Fraunces) oppure sans geometrico pulito (tipo Manrope), mai entrambi nello stesso logo.
+- **Colori:** Blu Prima `#0A72B8` e Blu notte `#203F57`; versione negativa bianca su blu notte; versione monocromatica.
+- **Wordmark:** "Prima Clean" — serif contemporaneo morbido (tipo Fraunces) oppure sans geometrico pulito (tipo Manrope), mai entrambi nello stesso logo. Possibile enfasi su "Clean" in corsivo, come sul sito.
 - **Forme:** linee pulite, angoli morbidi, nessun dettaglio sotto 1 px a 32 px di dimensione.
 - **Da evitare:** bolle, gocce d'acqua, lavatrici, grucce realistiche, scintillii "pulito", ombre 3D, sfumature arcobaleno.
 
@@ -263,7 +269,7 @@ Copia un prompt alla volta. Chiedi poi variazioni ("più minimale", "solo monogr
 ### Prompt base (da usare per primo)
 
 ```text
-Disegna uno sketch di logo per "1A Clean", una lavanderia e lavasecco
+Disegna uno sketch di logo per "Prima Clean", una lavanderia e lavasecco
 professionale premium in provincia di Verona. Stile: minimale, editoriale,
 elegante, da atelier sartoriale contemporaneo. Palette: blu #0A72B8,
 blu notte #203F57, su fondo avorio #EAE3D9. Il logo deve funzionare anche
@@ -275,47 +281,59 @@ avorio, in versione negativa su blu notte e come icona quadrata da app.
 ### Concept A — Il cartellino
 
 ```text
-Logo per "1A Clean", lavanderia premium. Il monogramma "1A" sta dentro la
+Logo per "Prima Clean", lavanderia premium. La lettera "P" sta dentro la
 sagoma di un cartellino da sartoria: rettangolo verticale con angoli
 superiori smussati e un piccolo foro rotondo in alto al centro. Lungo il
 bordo interno corre una sottile cucitura tratteggiata. A destra del simbolo,
-la scritta "1A Clean" in un serif contemporaneo morbido e leggero (stile
-Fraunces). Colori: blu #0A72B8 e blu notte #203F57 su avorio #EAE3D9.
-Design piatto, vettoriale, linee pulite, molto spazio bianco.
+la scritta "Prima Clean" in un serif contemporaneo morbido e leggero (stile
+Fraunces), con "Clean" in corsivo. Colori: blu #0A72B8 e blu notte #203F57
+su avorio #EAE3D9. Design piatto, vettoriale, linee pulite, molto spazio bianco.
 ```
 
 ### Concept B — La piega
 
 ```text
-Logo per "1A Clean", lavanderia e lavasecco di alta qualità. La lettera "A"
-è formata da un nastro di tessuto continuo che si piega su se stesso: le due
-aste sono il nastro, la barra orizzontale è la piega, con una leggera
-differenza di tono blu per suggerire la luce sulla stoffa. Il numero "1" è
-una linea verticale sottile ed elegante. Wordmark "Clean" in sans geometrico
-pulito (stile Manrope). Colori: #0A72B8 e #203F57 su bianco. Vettoriale,
-piatto, raffinato, adatto a insegna e favicon.
+Logo per "Prima Clean", lavanderia e lavasecco di alta qualità. La lettera
+"P" è formata da un nastro di tessuto continuo: l'asta verticale è il nastro
+che scende, l'occhiello è la stoffa che si ripiega su se stessa, con una
+leggera differenza di tono blu per suggerire la luce sulla piega. Accanto,
+la scritta "Prima Clean" in sans geometrico pulito (stile Manrope). Colori:
+#0A72B8 e #203F57 su bianco. Vettoriale, piatto, raffinato, adatto a
+insegna e favicon.
 ```
 
 ### Concept C — Il filo
 
 ```text
-Logo monoline per "1A Clean", lavanderia sartoriale. "1A" è disegnato con
-un'unica linea continua sottile come un filo da cucito, che parte da un
-piccolo ago stilizzato e termina con un nodo. Tratto uniforme, curve morbide,
-eleganza artigianale. Sotto, la scritta "CLEAN" in maiuscolo spaziato, sans
-serif leggero. Colore unico blu #0A72B8 su avorio #EAE3D9, più una versione
-bianca su blu notte #203F57. Adatto anche al ricamo e al neon.
+Logo monoline per "Prima Clean", lavanderia sartoriale. La parola "Prima" è
+scritta in corsivo elegante con un'unica linea continua sottile come un filo
+da cucito, che parte da un piccolo ago stilizzato e termina con un nodo.
+Tratto uniforme, curve morbide, eleganza artigianale. Sotto, la scritta
+"CLEAN" in maiuscolo spaziato, sans serif leggero. Colore unico blu #0A72B8
+su avorio #EAE3D9, più una versione bianca su blu notte #203F57. Adatto
+anche al ricamo e al neon.
 ```
 
 ### Concept D — Il colletto
 
 ```text
-Logo per "1A Clean", lavanderia e lavasecco. Il monogramma "1A" è
-incorniciato dalla forma stilizzata e geometrica di un colletto di camicia
+Logo per "Prima Clean", lavanderia e lavasecco. La lettera "P" è
+incorniciata dalla forma stilizzata e geometrica di un colletto di camicia
 visto dall'alto: due punte simmetriche e un piccolo bottone rotondo come
 punto finale. Stile minimale, linee pulite, nessun dettaglio superfluo.
-Wordmark "1A Clean" in serif contemporaneo leggero. Colori: blu #0A72B8,
+Wordmark "Prima Clean" in serif contemporaneo leggero. Colori: blu #0A72B8,
 blu notte #203F57, avorio #EAE3D9. Vettoriale, piatto, premium.
+```
+
+### Concept E — 1ª
+
+```text
+Logo per "Prima Clean", lavanderia e lavasecco premium. Il simbolo è il
+numero ordinale "1ª" (uno con la "a" in apice, che in italiano si legge
+"prima"), disegnato in un serif elegante dentro un cerchio sottile come un
+bollino di qualità o un timbro sartoriale. Accanto, la scritta "Prima Clean"
+in serif contemporaneo leggero. Colori: blu #0A72B8 e blu notte #203F57 su
+avorio #EAE3D9. Vettoriale, piatto, raffinato, molto spazio bianco.
 ```
 
 ### Prompt di rifinitura (dopo aver scelto un concept)
@@ -332,7 +350,7 @@ una busta porta-abiti bianca. Mantieni linee e proporzioni identiche.
 
 ## 11. Note prima di adottare il nuovo logo
 
-- **Franchising:** 1A Clean è indicato come marchio in franchising Eurosecco. Prima di modificare logo o insegne, verifica con il franchisor se esistono vincoli contrattuali sull'identità visiva.
+- **Franchising:** l'insegna è stata indicata da fonti terze (Galleria VeronaUno) come marchio in franchising Eurosecco. Prima di modificare logo o insegne, verifica con il franchisor se esistono vincoli contrattuali sull'identità visiva.
 - **Registrazione:** prima dell'uso pubblico fai una verifica di anteriorità del marchio (UIBM / EUIPO).
 - **Dallo sketch al file definitivo:** le immagini generate da ChatGPT sono ottime come bozza. Per insegne, stampa e ricamo il logo va ridisegnato in vettoriale (SVG / AI / PDF), con le versioni e le aree di rispetto definite.
 - **Aggiornare il sito:** una volta pronto, il nuovo logo sostituisce il componente `Logo` in `src/components/Header.jsx` e i file `public/favicon.svg` e `public/og-image.png`.

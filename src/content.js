@@ -8,8 +8,8 @@
  */
 
 export const brand = {
-  name: '1A Clean',
-  legalName: '1A Clean di Mattiolo Sonia',
+  name: 'Prima Clean',
+  legalName: 'Prima Clean di Mattiolo Sonia',
   email: 'lavasecco1aclean@gmail.com',
   // TODO legale: inserire P.IVA, sede legale, link privacy e cookie policy.
   vat: null,
@@ -58,7 +58,7 @@ export const stores = [
     city: 'San Giovanni Lupatoto (VR)',
     hint: 'All’interno della galleria del centro commerciale',
     phone: '351 710 1674',
-    mapsQuery: '1A Clean, Centro Commerciale Verona Uno, Via Monte Cristallo 1, San Giovanni Lupatoto VR',
+    mapsQuery: 'Prima Clean, Centro Commerciale Verona Uno, Via Monte Cristallo 1, San Giovanni Lupatoto VR',
     hours: null, // es. [['Lun–Sab', '9:00–20:00']] — inserire solo orari verificati
     badge: null,
     // posizione sulla mappa stilizzata (0–100, orientata a nord)
@@ -78,7 +78,7 @@ export const stores = [
     city: 'Legnago (VR)',
     hint: 'All’interno del centro commerciale Galassia',
     phone: '333 404 8866',
-    mapsQuery: '1A Clean, Centro Commerciale Galassia, Via Mantova 5, Legnago VR',
+    mapsQuery: 'Prima Clean, Centro Commerciale Galassia, Via Mantova 5, Legnago VR',
     hours: null,
     badge: null,
     map: { x: 70, y: 82 },
